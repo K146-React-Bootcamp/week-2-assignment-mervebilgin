@@ -5,7 +5,8 @@ Günümüzde internette bir milyardan fazla internet sitesi yer almaktadır. Bir
 
 ## HTTP Status Başlıkları
 
-image.png[HTTP Status Code Category](https://mbilgil0.medium.com/http-status-code-9cb5bc7aafce)
+![1_WQUUqIRt7fMq8CXvXTtQLA](https://user-images.githubusercontent.com/47225405/193270031-9a9d7004-eaf3-4d6b-b204-6ac811c13c6d.png)
+[HTTP Status Code Category](https://mbilgil0.medium.com/http-status-code-9cb5bc7aafce)
 
 HTTP status kodları beş farklı sınıf altında yer almaktadır. Bu üç haneli kodların ik hanesi kodun hangi sınıfa ait olduğunu göstermektedir. HTTP status 200 kodu 2xx sınıfında yer alırken 404 hata kodu 4xx sınıfında yer almaktadır. Bu sınıfların kodun özelliğine ve fonksiyonuna göre belirlenmektedir.
 
