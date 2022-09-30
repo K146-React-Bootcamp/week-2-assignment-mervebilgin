@@ -6,6 +6,7 @@ Günümüzde internette bir milyardan fazla internet sitesi yer almaktadır. Bir
 ## HTTP Status Başlıkları
 
 ![1_WQUUqIRt7fMq8CXvXTtQLA](https://user-images.githubusercontent.com/47225405/193270031-9a9d7004-eaf3-4d6b-b204-6ac811c13c6d.png)
+
 [HTTP Status Code Category](https://mbilgil0.medium.com/http-status-code-9cb5bc7aafce)
 
 HTTP status kodları beş farklı sınıf altında yer almaktadır. Bu üç haneli kodların ik hanesi kodun hangi sınıfa ait olduğunu göstermektedir. HTTP status 200 kodu 2xx sınıfında yer alırken 404 hata kodu 4xx sınıfında yer almaktadır. Bu sınıfların kodun özelliğine ve fonksiyonuna göre belirlenmektedir.
@@ -53,5 +54,5 @@ HTTP 500 hatası internette en sık karşılaşılan hatalardan bir tanesidir. S
 503 hatası internet sitesinin saklandığı sunucunun aşırı yüklendiği anlamına gelmektedir. Sunucu bu gibi durumlarda daha önce gelen isteklere verdiği cevapları vermektedir. Bu hata kodu sistem yöneticisinin meydana gelen hata üzerinde çalıştığı ve sitenin bir süre sonra tekrar erişilebilir olacağı anlamını taşımaktadır.
 
 
-Yararlandığım Kaynaklar: Lİmonhost/ HTTP Status Kodları (https://www.limonhost.net/makaleler/nedir/http-status-kodlari-nelerdir/)
+Yararlandığım Kaynaklar: [Limonhost/ HTTP Status Kodları](https://www.limonhost.net/makaleler/nedir/http-status-kodlari-nelerdir/)
 
