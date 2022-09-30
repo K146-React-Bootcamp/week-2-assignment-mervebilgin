@@ -2,7 +2,6 @@
 
 Bir web tarayıcısından bir sunucuya gönderilen istek http protokollerine göre gerçekleştirilir. Sunucu http protokolüne göre web tarayıcısına bir cevap verir. Bu cevapta header ( üst bilgi) ve body ( gövde) bilgisi bulunur. Header alınan bilginin türünün barındırıldığı kısımdır. Bu tür bilgisinin içinde içerik tipi, server tipi, Get, Put, Post, içerik boyutu gibi iletişim yöntemleri ve bilgiler bulunur.
 
-(rESİM)
 
 ### _POST :_ 
 Sunucuya veri göndermek için kullanılır, bodyRequest(body : fromdata, parametre, multipart : resim yada video gönderme)
@@ -35,4 +34,7 @@ _GET_ methodu kullanıldığında istekler URL kısmında gönderilir. Gönderil
 
 > /test/demo_form.php?name1=value1&name2=value2
 
-_GET_’in _POST_’a karşı bir diğer dezavantajı şudur: multi-part binary türündeki verilerin gönderimi. “_multi-part binary_” ile kastedilen şey dosyadır. Örneğin; resimdir. _POST_ ile forma bir resim koyup sunucuya upload edebiliriz. Fakat _GET_ ile bu mümkün değildir
+_GET_’in _POST_’a karşı bir diğer dezavantajı şudur: multi-part binary türündeki verilerin gönderimi. “_multi-part binary_” ile kastedilen şey dosyadır. Örneğin; resimdir. _POST_ ile forma bir resim koyup sunucuya upload edebiliriz. Fakat _GET_ ile bu mümkün değildir.
+
+
+Yararlandığım Kaynaklar: [Ufuk Çatalca/ HTTP Request Methods](https://medium.com/@ufukcatalca/http-i%CC%87stek-metodlar%C4%B1-http-request-methods-799782f21640)
