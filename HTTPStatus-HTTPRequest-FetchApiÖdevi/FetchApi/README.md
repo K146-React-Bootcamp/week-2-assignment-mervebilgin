@@ -21,25 +21,29 @@ Fetch API’ yi kullanmak için fetch metoduna istek yapacağımız url’ i par
 
 fetch() metodundan sonra, metodun sonuna then() promise metodunu ekleriz:
 
-> .then(function() {
->  })
+``` 
+.then(function() {
+})
+```
 
 Örneğin “https://jsonplaceholder.typicode.com/todos” adresine get isteğinde bulunalım.
 
 ### GET İsteği
 
-> fetch("https://jsonplaceholder.typicode.com/todos")
+```
+fetch("https://jsonplaceholder.typicode.com/todos")
 	.then((response) => response.json()) //parse json data
 	.then(function (todos) {
 		todos.forEach((todo) => {
 			console.log(todo.title); //Başlıkları console' a yazdırma
 		});
 	});
-
+```	
 
 ### POST İsteği Yapma
 
-> // POST isteği ile verimizi servera gönderelim
+```
+// POST isteği ile verimizi servera gönderelim
 let payload = {
     title: "Blog Title",
     body: "lorem ipsum",
@@ -53,7 +57,11 @@ let payload = {
   .then(response => response.json())
   .then(json => console.log(json))
   .catch(err => console.log(err));
-
+  
+  ```
 
 Aşama aşama fetch().then().then().catch() yapısı:
+
+##### Yararlandığım kaynaklar: 
+patika.dev/ Fetch API İle Çalışmak
 
